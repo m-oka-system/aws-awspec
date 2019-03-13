@@ -1,5 +1,3 @@
-require 'spec_helper'
- 
 describe vpc('cfn-vpc') do
   it { should exist }
   it { should be_available }

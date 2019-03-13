@@ -1,5 +1,3 @@
-require 'spec_helper'
-
 describe subnet('cfn-vpc-public-1a') do
   it { should exist }
   it { should be_available }
